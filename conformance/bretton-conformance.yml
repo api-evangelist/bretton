@@ -1,0 +1,28 @@
+generated: '2026-07-18'
+method: searched
+source: https://trust.bretton.com/
+standards:
+  - id: soc2-type2
+    conforms: true
+    evidence: Trust center lists SOC 2 Type II (annual audit by a licensed CPA firm).
+  - id: gdpr
+    conforms: true
+    evidence: Trust center documents maintained GDPR compliance.
+  - id: nist-sp-800-57
+    conforms: true
+    evidence: Trust center states cryptography is aligned to NIST SP 800-57 guidance.
+  - id: nist-incident-response
+    conforms: true
+    evidence: Trust center references NIST incident response standards (24x7 escalation, annual testing).
+  - id: iso-27001
+    conforms: false
+    evidence: Not listed on the public trust center.
+  - id: pci-dss
+    conforms: false
+    evidence: Not listed on the public trust center.
+  - id: hipaa
+    conforms: false
+    evidence: Not listed on the public trust center.
+notes: >-
+  Compliance posture harvested from the public Bretton trust center (trust.bretton.com).
+  No public OpenAPI is available to derive cross-cutting API standards (oauth2/oidc/rfc9457/etc).

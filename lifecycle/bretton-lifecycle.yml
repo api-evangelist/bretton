@@ -1,0 +1,20 @@
+generated: '2026-07-18'
+method: searched
+source: https://status.bretton.com/
+status_page: https://status.bretton.com/
+status_page_provider: Atlassian Statuspage
+versioning:
+  scheme: unknown
+  note: No public API versioning policy published; developer docs (docs.bretton.com) are access-gated.
+deprecation:
+  policy_url: null
+  sunset_header: null
+  note: No public deprecation/sunset policy located.
+sla:
+  url: null
+  uptime_target: null
+deprecated_operations: []
+notes: >-
+  Bretton is an enterprise AI compliance platform with a private, access-gated documentation
+  portal (docs.bretton.com) and no public API surface. The one operational-transparency signal
+  found on the public surface is an Atlassian-hosted status page.
